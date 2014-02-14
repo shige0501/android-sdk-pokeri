@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">app_NavigationTab</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="tab_main">タブ１の画面用フラグメントを表示しています</string>
+    <string name="tab_sub">タブ２の画面用フラグメントを表示しています</string>
+</resources>
