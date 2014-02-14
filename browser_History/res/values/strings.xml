@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">browser_History</string>
+    
+    <string name="tv_message">メニューから履歴の削除を行ってください。</string>
+    <string name="action_clear">ブラウザ履歴のクリア</string>
+
+</resources>
