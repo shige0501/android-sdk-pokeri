@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thumbnail="@drawable/ic_launcher"
+    android:description="@string/pref_description"
+    android:settingsActivity="net.buildbox.pokeri.ui_livewallpaper.SamplePreferenceActivity"
+    />
