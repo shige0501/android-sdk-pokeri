@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 
 	// 本サンプルではピクシブ株式会社が提供するp.tlでのURL短縮を行っています。
 	// API_KEYはこちら（http://p.tl/api.php）から取得したキーを設定してください。
-	private static final String API_KEY = "eca77a5ec2abc8cee50a37b474fcf4d62fada1fb";
+	private static final String API_KEY = "取得したAPIキーをこちらに設定します";
 
 	// URI要求パラメータ
 	private static final String PARAM_KEY = "key";
