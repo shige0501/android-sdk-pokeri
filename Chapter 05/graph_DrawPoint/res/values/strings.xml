@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">graph_DrawPoint</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">点の描画</string>
+
+</resources>
