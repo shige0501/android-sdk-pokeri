@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">intent_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">別Activityの呼び出し</string>
+    <string name="title_activity_sub">呼び出された画面</string>
+    <string name="title_activity_return">値を返す画面</string>
+    <string name="title_activity_intent">Intentを返す画面</string>
+
+</resources>
