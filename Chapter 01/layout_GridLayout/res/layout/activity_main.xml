@@ -1,0 +1,56 @@
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:columnCount="3"
+    app:rowCount="3">
+    
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="1, 2"
+        app:layout_column="0"
+        app:layout_row="0"
+        app:layout_columnSpan="2" />
+    <Button 
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="3"
+        app:layout_column="2"
+        app:layout_row="0" />
+    <Button 
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="4"
+        app:layout_column="0"
+        app:layout_row="1" />
+    <Button 
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="5"
+        app:layout_column="1"
+        app:layout_row="1"
+        />
+    <Button 
+        android:layout_width="64dp"
+        android:layout_height="128dp"
+        android:text="6, 9"
+        app:layout_column="2"
+        app:layout_row="1"
+        app:layout_rowSpan="2" />
+    <Button 
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="7"
+        app:layout_column="0"
+        app:layout_row="2" />
+    <Button 
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="8"
+        app:layout_column="1"
+        app:layout_row="2" />
+    
+</android.support.v7.widget.GridLayout>
