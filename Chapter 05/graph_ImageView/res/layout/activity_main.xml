@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+	        android:id="@+id/btn_resource"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="リソース指定"
+	        />
+        <Button
+            android:id="@+id/btn_bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ビットマップ指定"
+            />
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_drawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drawable指定"
+            />
+    </LinearLayout>
+    
+    
+    <ImageView
+        android:id="@+id/iv_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        />
+    
+</LinearLayout>
