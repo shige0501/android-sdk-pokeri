@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Mapの動的表示"
+        android:onClick="showGoogleMap"
+        />
+    <LinearLayout
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/layoutGoogleMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        />
+</LinearLayout>
