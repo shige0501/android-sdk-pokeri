@@ -1,0 +1,96 @@
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:columnCount="3"
+    app:rowCount="4">
+    
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="1"
+        app:layout_column="0"
+        app:layout_row="0" />
+    <Button 
+        android:id="@+id/btn2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="2"
+        app:layout_column="1"
+        app:layout_row="0" />
+    <Button 
+        android:id="@+id/btn3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="3"
+        app:layout_column="2"
+        app:layout_row="0" />
+    <Button
+        android:id="@+id/btn4" 
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="4"
+        app:layout_column="0"
+        app:layout_row="1" />
+    <Button 
+        android:id="@+id/btn5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="5"
+        app:layout_column="1"
+        app:layout_row="1"
+        />
+    <Button 
+        android:id="@+id/btn6"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="6"
+        app:layout_column="2"
+        app:layout_row="1" />
+    <Button 
+        android:id="@+id/btn7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="7"
+        app:layout_column="0"
+        app:layout_row="2" />
+    <Button 
+        android:id="@+id/btn8"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="8"
+        app:layout_column="1"
+        app:layout_row="2" />
+    <Button 
+        android:id="@+id/btn9"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="9"
+        app:layout_column="2"
+        app:layout_row="2" />
+    <Button 
+        android:id="@+id/btnA"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="＊"
+        app:layout_column="0"
+        app:layout_row="3" />
+    <Button 
+        android:id="@+id/btn0"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="0"
+        app:layout_column="1"
+        app:layout_row="3" />
+    <Button 
+        android:id="@+id/btnB"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="#"
+        app:layout_column="2"
+        app:layout_row="3" />
+    
+</android.support.v7.widget.GridLayout>
