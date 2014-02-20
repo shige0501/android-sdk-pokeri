@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">provider_Contacts</string>
+
+    <string name="action_insert">連絡先の追加</string>
+    <string name="action_update">連絡先の更新</string>
+    <string name="action_delete">連絡先の削除</string>
+
+</resources>
