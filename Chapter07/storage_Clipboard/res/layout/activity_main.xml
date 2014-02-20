@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="コピー元："
+            />
+        <EditText
+            android:id="@+id/et_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="クリップボードにコピー"
+        />
+    <Button
+        android:id="@+id/btn_toastClipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="クリップボードのメッセージ表示"
+        />
+    
+</LinearLayout>
