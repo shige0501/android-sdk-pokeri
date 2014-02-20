@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDAADD"
+        android:text="●『data』ディレクトリ内のファイル"
+        />
+    <TextView
+        android:id="@+id/tv_fileList1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDAADD"
+        android:text="●『data/gif』内のファイル"
+        />
+    <TextView
+        android:id="@+id/tv_fileList2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+</LinearLayout>
