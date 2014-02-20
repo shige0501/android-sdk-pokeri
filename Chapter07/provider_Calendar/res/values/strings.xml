@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">provider_Calendar</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_add">イベントの追加</string>
+    <string name="action_update">イベントの更新</string>
+    <string name="action_delete">イベントの削除</string>
+</resources>
