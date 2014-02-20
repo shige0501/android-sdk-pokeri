@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_insert"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="項目の追加"
+        />
+    
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="項目の更新"
+        />
+    
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="項目の削除"
+        />
+
+</menu>
