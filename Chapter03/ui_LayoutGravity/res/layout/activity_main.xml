@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+	
+    <!-- テキストビュー自体の中央揃えは、layout_gravityを使用 -->
+    <!-- テキストビュー内のテキストの位置は、gravityで指定 -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="中央揃え"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        />
+    
+</LinearLayout>
