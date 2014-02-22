@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout_weight指定なし"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="ボタン１（ボタン２が非表示）"
+	        />
+	    <Button
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="ボタン２"
+	        />
+	</LinearLayout>
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout_weight指定あり"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="ボタン１"
+	        />
+	    <Button
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="ボタン２"
+	        />
+	</LinearLayout>
+</LinearLayout>
