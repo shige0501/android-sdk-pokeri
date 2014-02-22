@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ui_NavigationDrawer</string>
+
+    <string name="action_drawer">ナビゲーションドロワーを開く</string>
+    <string name="drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="drawer_close">ナビゲーションドロワーを閉じる</string>
+    
+</resources>

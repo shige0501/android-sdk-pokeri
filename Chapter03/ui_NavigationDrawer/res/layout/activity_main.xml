@@ -1,0 +1,29 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- メインコンテンツ -->
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        />
+    
+    <!-- ナビゲーションドロワー -->
+    <LinearLayout
+        android:id="@+id/navigation_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#4169e1"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="ナビゲーション領域"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
