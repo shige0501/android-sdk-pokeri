@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="選択１"
+        />
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="選択２"
+        />
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="選択３"
+        />
+
+</menu>
