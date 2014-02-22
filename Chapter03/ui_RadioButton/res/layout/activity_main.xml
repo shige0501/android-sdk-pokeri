@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<RadioGroup
+		android:id="@+id/grp_color"
+		android:checkedButton="@+id/rbtn_white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<RadioButton
+			android:id="@id/rbtn_white"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="白色" />
+		<RadioButton
+			android:id="@+id/rbtn_blue"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="青色" />
+		<RadioButton
+			android:id="@+id/rbtn_yellow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="黄色" />
+	</RadioGroup>
+</LinearLayout>
+
