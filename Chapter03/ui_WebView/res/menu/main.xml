@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_loadUrl"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="URL読み込み"
+        />
+    
+    <item
+        android:id="@+id/menu_loadAsset"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="Assets読み込み"
+        />
+    
+    <item
+        android:id="@+id/menu_loadSD"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom"
+        android:title="SDカード読み込み"
+        />
+    
+    <item
+        android:id="@+id/menu_loadData"
+        android:orderInCategory="400"
+        android:showAsAction="ifRoom"
+        android:title="データ読み込み"
+        />
+    
+    <item
+        android:id="@+id/menu_back"
+        android:orderInCategory="500"
+        android:showAsAction="ifRoom"
+        android:title="前のページへ"
+        />
+    
+    <item
+        android:id="@+id/menu_forward"
+        android:orderInCategory="600"
+        android:showAsAction="ifRoom"
+        android:title="次のページへ"
+        />
+    
+    <item
+        android:id="@+id/menu_2back"
+        android:orderInCategory="700"
+        android:showAsAction="ifRoom"
+        android:title="2ステップ前へ"
+        />
+
+</menu>
