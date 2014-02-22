@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- layout_margin指定なし -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout_margin指定なし"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff00"
+            android:text="テキスト１"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ffff"
+            android:text="テキスト２"
+            />
+    </LinearLayout>
+    <android.support.v7.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    
+    <!-- layout_margin指定あり -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout_margin指定あり"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff00"
+            android:text="テキスト１"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ffff"
+            android:text="テキスト２"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>
