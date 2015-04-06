@@ -1,0 +1,22 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <!-- layout_columnで左から２番目の位置を指定 -->
+        <Button android:text="2"
+            android:layout_column="1" />
+        <Button android:text="3" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="4" />
+        <!-- 隣のセルと結合 -->
+        <Button android:text="5"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <TableRow>
+        <Button android:text="7" />
+        <Button android:text="8" />
+        <Button android:text="9" />
+    </TableRow>
+</TableLayout>
