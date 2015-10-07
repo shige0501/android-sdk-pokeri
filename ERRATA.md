@@ -26,33 +26,9 @@
 ### P.4
 ■ サンプル layout_LinearLayout
 * Android Studio 1.4を元にプロジェクトを作り直しました。
-* 掲載時のサンプルでは、LinearLayoutを利用していることがわかりにくいものであったことから、以下の様なコードに変更しています。  
-```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world_ja" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_to_android" />
-
-</LinearLayout>
-```
-
-* 画面イメージが変更となったので差し替えを行っています。   
-![結果](https://raw.githubusercontent.com/shige0501/android-sdk-pokeri/update-chapter01/Chapter01/picture/capture_layout_LinearLayout.png)
+* 実行結果のイメージをLinearLayoutであることがわかるように差し替えました。(サンプルソースは修正済み)     
+![結果](./Chapter01/picture/capture_layout_LinearLayout.png)
 
 ## <a name="Chapter-2"></a>Chapter 2
 
