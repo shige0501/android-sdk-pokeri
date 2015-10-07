@@ -23,6 +23,12 @@
 
 ## <a name="Chapter-1"></a>Chapter 1
 
+### P.4
+■ サンプル layout_LinearLayout
+* Android Studio 1.4を元にプロジェクトを作り直しました。
+
+* 実行結果のイメージをLinearLayoutであることがわかるように差し替えました。(サンプルソースは修正済み)     
+![結果](./Chapter01/picture/capture_layout_LinearLayout.png)
 
 ## <a name="Chapter-2"></a>Chapter 2
 
