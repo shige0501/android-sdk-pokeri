@@ -9,4 +9,4 @@ android-sdk-pokeri
 こちらのコードを利用する際にはそれらのライセンスに従ってください。
 
 * 正誤表は以下を確認してください
-  * https://github.com/shige0501/android-sdk-pokeri/blob/master/README.md
+  * https://github.com/shige0501/android-sdk-pokeri/blob/master/ERRATA.md
