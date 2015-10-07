@@ -22,7 +22,9 @@
 
 
 ## <a name="Chapter-1"></a>Chapter 1
-
+■ サンプル layout_LinearLayout
+* Android Studio 1.4で生成した時、画面イメージが変更となったので差し替え
+![結果](https://raw.githubusercontent.com/shige0501/android-sdk-pokeri/update-chapter01/Chapter01/picture/capture_layout_LinearLayout.png)
 
 ## <a name="Chapter-2"></a>Chapter 2
 
