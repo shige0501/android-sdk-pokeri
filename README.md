@@ -11,7 +11,7 @@
 ## 最新情報の提供
 
 * 発売後のサポートに関しては、以下をご確認ください。
-  * https://github.com/shige0501/android-sdk-pokeri/blob/master/SUPPORT.md
+  * (SUPPORT.md)[./SUPPORT.md]
 * 正誤情報は以下を確認してください
   * https://github.com/shige0501/android-sdk-pokeri/blob/master/ERRATA.md
 
