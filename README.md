@@ -13,7 +13,7 @@
 * 発売後のサポートに関しては、以下をご確認ください。
   * [SUPPORT.md](./SUPPORT.md)
 * 正誤情報は以下を確認してください
-  * [ERRATA.md](.ERRATA.md)
+  * [ERRATA.md](./ERRATA.md)
 
 
 ## サンプルプロジェクト
