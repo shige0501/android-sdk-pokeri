@@ -1,4 +1,5 @@
-# 「Android SDKポケットリファレンス」サンプルソース
+# 「Android SDKポケットリファレンス」
+#　サンプルソース
 ==================
 
 # 本ページについて
@@ -19,7 +20,7 @@
 ## サンプルプロジェクト
 
 * v1.0.0 : 書籍出版時のリリースバージョン
- * https://github.com/shige0501/android-sdk-pokeri/releases/tag/v1.0.0
+ * https://github.com/shige0501/android-sdk-pokeri/releases/tag/v1.0.2
 
 ## 注意事項
 一部サンプルコード（Chapter07/storage_SQLite）には、Apache License が適用されたコードが含まれています。
