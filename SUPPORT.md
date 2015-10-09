@@ -1,8 +1,8 @@
-# 正誤情報
+# サポート情報
 
 ## 最終更新日
 
-* 2015/10/07
+* 2015/10/09
 
 ## 目次
 * [Chapter 1](#Chapter-1)
@@ -23,6 +23,16 @@
 
 ## <a name="Chapter-1"></a>Chapter 1
 
+### 2015/10/09
+* サンプルプロジェクトをすべてAndroid Studio 1.4を元に作り直しました。
+
+
+### 2015/10/07
+■ サンプル layout_LinearLayout
+* Android Studio 1.4を元にプロジェクトを作り直しました。
+
+* P.4の実行結果のイメージをLinearLayoutであることがわかるように差し替えました。(サンプルソースは修正済み)     
+![結果](./Chapter01/picture/capture_layout_LinearLayout.png)
 
 ## <a name="Chapter-2"></a>Chapter 2
 
