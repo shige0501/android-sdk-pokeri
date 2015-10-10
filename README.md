@@ -20,7 +20,7 @@
 ## サンプルプロジェクト
 
 * v1.0.0 : 書籍出版時のリリースバージョン
- * https://github.com/shige0501/android-sdk-pokeri/releases/tag/v1.0.2
+ * https://github.com/shige0501/android-sdk-pokeri/releases/tag/v1.0.0
 
 ## 注意事項
 一部サンプルコード（Chapter07/storage_SQLite）には、Apache License が適用されたコードが含まれています。
