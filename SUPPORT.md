@@ -36,6 +36,9 @@
 
 ## <a name="Chapter-2"></a>Chapter 2
 
+### 2015/10/12
+■ app_FragmentLifecycle
+* サンプルプロジェクト中のMainFragment.javaで呼び出しているonAttach()はAndroid Support library v23.0.0より非推奨となりました。サンプルを実行すると取り消し線が表示されます。
 
 ## <a name="Chapter-3"></a>Chapter 3
 
