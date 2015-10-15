@@ -36,6 +36,11 @@
 
 ## <a name="Chapter-2"></a>Chapter 2
 
+### 2015/10/15
+■ app_DialogFragment
+* 最新版ではMaterial Designが適用されるため、P.29のサンプルプロジェクトの実行結果のイメージは以下のようになります。
+![実行結果](./Chapter02/picture/capture_app_DialogFragment.png)
+
 ### 2015/10/12
 ■ app_FragmentLifecycle
 * サンプルプロジェクト中のMainFragment.javaで呼び出しているonAttach()はAndroid Support library v23.0.0より非推奨となりました。サンプルを実行すると取り消し線が表示されます。
