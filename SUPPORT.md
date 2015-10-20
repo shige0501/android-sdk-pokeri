@@ -1,9 +1,5 @@
 # サポート情報
 
-## 最終更新日
-
-* 2015/10/12
-
 ## 目次
 * [Chapter 1](#Chapter-1)
 * [Chapter 2](#Chapter-2)
@@ -35,6 +31,11 @@
 ![結果](./Chapter01/picture/capture_layout_LinearLayout.png)
 
 ## <a name="Chapter-2"></a>Chapter 2
+
+### 2015/10/20
+■ app_HideActionBar
+* 書籍では基底クラスをActionBarActivityとして説明していますが、2015/10/20時点でActionBarActivityはDeprecatedとなっており、今後の実装ではAppCompatActivityを使うことが推奨されています。  
+サンプル上もそのように修正を行いました。
 
 ### 2015/10/15
 ■ app_DialogFragment
