@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="action_list">
-        <item>操作一覧</item>
-        <item>Toast表示</item>
-        <item>サイト呼び出し</item>
-        <item>終了</item>
-    </array>
-</resources>
